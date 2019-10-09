@@ -1,0 +1,13 @@
+﻿{
+	"Okta": {
+		"ClientId": "{ClientId}",
+		"OktaDomain": "https://{yourOktaDomain}",
+		"RedirectUri": "com.test://redirect",
+		"PostLogoutRedirectUri": "com.test://logout",
+		"CallbackPath": "/test/callback",
+		"Scope": "test1 test2 test3",
+		"GetClaimsFromUserInfoEndpoint": true,
+		"AuthorizationServerId": "test1",
+		"ClockSkew": 90
+	}
+}
